@@ -25,7 +25,6 @@ jobs:
         
     - name: Build and Test Flask App
       run: |
-        cd pypy
         flask run --host=0.0.0.0 --port=5002 &
         sleep 5 # wait for Flask app to start
         curl http://localhost:5002
