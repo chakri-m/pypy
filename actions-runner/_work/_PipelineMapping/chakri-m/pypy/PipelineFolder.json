@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "chakri-m/pypy",
+  "pipelineDirectory": "pypy",
+  "workspaceDirectory": "pypy/pypy",
+  "repositories": {
+    "chakri-m/pypy": {
+      "repositoryPath": "pypy/pypy",
+      "lastRunOn": "02/20/2024 23:48:05 +01:00"
+    }
+  },
+  "lastRunOn": "02/20/2024 23:52:08 +01:00"
+}

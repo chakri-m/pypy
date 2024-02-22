@@ -1,0 +1,169 @@
+[2024-02-20 22:43:47Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:47Z INFO HostContext] Well known config file 'Credentials': '/Users/mohammedchakri/pypy/actions-runner/.credentials'
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:47Z INFO HostContext] Well known config file 'Runner': '/Users/mohammedchakri/pypy/actions-runner/.runner'
+[2024-02-20 22:43:47Z INFO Listener] Runner is built for OSX (Arm64) - osx-arm64.
+[2024-02-20 22:43:47Z INFO Listener] RuntimeInformation: Darwin 22.1.0 Darwin Kernel Version 22.1.0: Sun Oct  9 20:15:52 PDT 2022; root:xnu-8792.41.9~2/RELEASE_ARM64_T8112.
+[2024-02-20 22:43:47Z INFO Listener] Version: 2.313.0
+[2024-02-20 22:43:47Z INFO Listener] Commit: d502c4623e5cd140e949f1e644ffe03762bd4151
+[2024-02-20 22:43:47Z INFO Listener] Culture: en-BE
+[2024-02-20 22:43:47Z INFO Listener] UI Culture: en-BE
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:47Z INFO Listener] Validating directory permissions for: '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:47Z INFO CommandLineParser] Parse
+[2024-02-20 22:43:47Z INFO CommandLineParser] Parsing 5 args
+[2024-02-20 22:43:47Z INFO CommandLineParser] parsing argument
+[2024-02-20 22:43:47Z INFO CommandLineParser] HasArgs: False
+[2024-02-20 22:43:47Z INFO CommandLineParser] Adding Command: configure
+[2024-02-20 22:43:47Z INFO CommandLineParser] parsing argument
+[2024-02-20 22:43:47Z INFO CommandLineParser] HasArgs: True
+[2024-02-20 22:43:47Z INFO CommandLineParser] arg: url
+[2024-02-20 22:43:47Z INFO CommandLineParser] parsing argument
+[2024-02-20 22:43:47Z INFO CommandLineParser] HasArgs: True
+[2024-02-20 22:43:47Z INFO CommandLineParser] Adding option 'url': 'https://github.com/chakri-m/pypy'
+[2024-02-20 22:43:47Z INFO CommandLineParser] parsing argument
+[2024-02-20 22:43:47Z INFO CommandLineParser] HasArgs: True
+[2024-02-20 22:43:47Z INFO CommandLineParser] arg: token
+[2024-02-20 22:43:47Z INFO CommandLineParser] parsing argument
+[2024-02-20 22:43:47Z INFO CommandLineParser] HasArgs: True
+[2024-02-20 22:43:47Z INFO CommandLineParser] Adding option 'token': '***'
+[2024-02-20 22:43:47Z INFO Listener] Arguments parsed
+[2024-02-20 22:43:47Z INFO Runner] ExecuteCommand
+[2024-02-20 22:43:47Z INFO ConfigurationStore] currentAssemblyLocation: /Users/mohammedchakri/pypy/actions-runner/bin/Runner.Listener.dll
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:47Z INFO ConfigurationStore] binPath: /Users/mohammedchakri/pypy/actions-runner/bin
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:47Z INFO ConfigurationStore] RootFolder: /Users/mohammedchakri/pypy/actions-runner
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:47Z INFO HostContext] Well known config file 'Runner': '/Users/mohammedchakri/pypy/actions-runner/.runner'
+[2024-02-20 22:43:47Z INFO ConfigurationStore] ConfigFilePath: /Users/mohammedchakri/pypy/actions-runner/.runner
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:47Z INFO HostContext] Well known config file 'Credentials': '/Users/mohammedchakri/pypy/actions-runner/.credentials'
+[2024-02-20 22:43:47Z INFO ConfigurationStore] CredFilePath: /Users/mohammedchakri/pypy/actions-runner/.credentials
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:47Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/mohammedchakri/pypy/actions-runner/.credentials_migrated'
+[2024-02-20 22:43:47Z INFO ConfigurationStore] MigratedCredFilePath: /Users/mohammedchakri/pypy/actions-runner/.credentials_migrated
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:47Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:47Z INFO HostContext] Well known config file 'Service': '/Users/mohammedchakri/pypy/actions-runner/.service'
+[2024-02-20 22:43:47Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/mohammedchakri/pypy/actions-runner/.service
+[2024-02-20 22:43:47Z INFO CommandSettings] Flag 'help': 'False'
+[2024-02-20 22:43:47Z INFO CommandSettings] Flag 'version': 'False'
+[2024-02-20 22:43:47Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-02-20 22:43:47Z INFO CommandSettings] Flag 'check': 'False'
+[2024-02-20 22:43:47Z INFO CommandSettings] Command 'configure': 'True'
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: 
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-02-20 22:43:47Z INFO Terminal] WRITE: |                       
+[2024-02-20 22:43:47Z INFO Terminal] WRITE: Self-hosted runner registration
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE:                         |
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-02-20 22:43:47Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-02-20 22:43:47Z INFO ConfigurationManager] ConfigureAsync
+[2024-02-20 22:43:47Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2024-02-20 22:43:47Z INFO ConfigurationStore] IsConfigured()
+[2024-02-20 22:43:47Z INFO ConfigurationStore] IsConfigured: False
+[2024-02-20 22:43:47Z INFO ConfigurationManager] Is configured: False
+[2024-02-20 22:43:47Z INFO CommandSettings] Arg 'url': 'https://github.com/chakri-m/pypy'
+[2024-02-20 22:43:47Z INFO CommandSettings] Remove url from Arg dictionary.
+[2024-02-20 22:43:47Z INFO CommandSettings] Arg 'token': '***'
+[2024-02-20 22:43:47Z INFO CommandSettings] Remove token from Arg dictionary.
+[2024-02-20 22:43:48Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (C841:3D6B27:15A8A43:15E5053:65D52B24)
+[2024-02-20 22:43:48Z INFO ConfigurationManager] Using V2 flow: False
+[2024-02-20 22:43:48Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2024-02-20 22:43:48Z INFO RunnerServer] EstablishVssConnection
+[2024-02-20 22:43:48Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-02-20 22:43:48Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-02-20 22:43:48Z INFO RunnerServer] EstablishVssConnection
+[2024-02-20 22:43:48Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-02-20 22:43:48Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-02-20 22:43:48Z INFO RunnerServer] EstablishVssConnection
+[2024-02-20 22:43:48Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-02-20 22:43:48Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-02-20 22:43:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-02-20 22:43:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-02-20 22:43:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-02-20 22:43:49Z INFO Terminal] WRITE LINE: 
+[2024-02-20 22:43:49Z INFO ConfigurationManager] Test Connection complete.
+[2024-02-20 22:43:49Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:49Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:49Z INFO HostContext] Well known config file 'RSACredentials': '/Users/mohammedchakri/pypy/actions-runner/.credentials_rsaparams'
+[2024-02-20 22:43:49Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2024-02-20 22:43:49Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/mohammedchakri/pypy/actions-runner/.credentials_rsaparams
+[2024-02-20 22:43:49Z INFO RSAFileKeyManager] Which: 'chmod'
+[2024-02-20 22:43:49Z INFO RSAFileKeyManager] Location: '/bin/chmod'
+[2024-02-20 22:43:49Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:43:49Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper] Starting process:
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/mohammedchakri/pypy/actions-runner/.credentials_rsaparams'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   Working directory: '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper] Process started with process id 7376, waiting for process exit.
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-20 22:43:49Z INFO ProcessInvokerWrapper] Finished process 7376 with exit code 0, and elapsed time 00:00:00.0511343.
+[2024-02-20 22:43:49Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/mohammedchakri/pypy/actions-runner/.credentials_rsaparams
+[2024-02-20 22:43:49Z INFO CommandSettings] Arg 'runnergroup': ''
+[2024-02-20 22:43:49Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-20 22:43:49Z INFO PromptManager] ReadValue
+[2024-02-20 22:43:49Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2024-02-20 22:43:49Z INFO Terminal] WRITE: [press Enter for Default] 
+[2024-02-20 22:43:49Z INFO Terminal] READ LINE
+[2024-02-20 22:44:02Z INFO Terminal] Read value: ''
+[2024-02-20 22:44:02Z INFO PromptManager] Falling back to the default: 'Default'
+[2024-02-20 22:44:02Z INFO Terminal] WRITE LINE: 
+[2024-02-20 22:44:02Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2024-02-20 22:44:02Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-02-20 22:44:02Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-02-20 22:44:02Z INFO CommandSettings] Arg 'name': ''
+[2024-02-20 22:44:02Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-20 22:44:02Z INFO PromptManager] ReadValue
+[2024-02-20 22:44:02Z INFO Terminal] WRITE: Enter the name of runner: 
+[2024-02-20 22:44:02Z INFO Terminal] WRITE: [press Enter for Mohammeds-MacBook-Pro] 
+[2024-02-20 22:44:02Z INFO Terminal] READ LINE
+[2024-02-20 22:44:06Z INFO Terminal] Read value: './run.sh'
+[2024-02-20 22:44:06Z INFO Terminal] WRITE LINE: 
+[2024-02-20 22:44:06Z INFO CommandSettings] Arg 'labels': ''
+[2024-02-20 22:44:06Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-20 22:44:06Z INFO PromptManager] ReadValue
+[2024-02-20 22:44:06Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'macOS', 'ARM64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2024-02-20 22:44:06Z INFO Terminal] WRITE: [press Enter to skip] 
+[2024-02-20 22:44:06Z INFO Terminal] READ LINE
+[2024-02-20 22:44:16Z INFO Terminal] Read value: ''
+[2024-02-20 22:44:16Z INFO Terminal] WRITE LINE: 
+[2024-02-20 22:44:16Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus12.actions.githubusercontent.com/NJeMjNplxoUxStS3VLSKYj1iti1SqKg3vmM0iCzEJiYIkGRrge/_apis/distributedtask/pools/0/agents?agentName=.%2Frun.sh&includeCapabilities=False failed. HTTP Status: BadRequest
+[2024-02-20 22:44:16Z ERR  Runner] GitHub.Services.WebApi.VssServiceResponseException: The runner name './run.sh' is not valid. A valid runner name is 64 characters or less in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agentName')
+ ---> System.ArgumentException: The runner name './run.sh' is not valid. A valid runner name is 64 characters or less in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agentName')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2024-02-20 22:44:16Z ERR  Runner] #####################################################
+[2024-02-20 22:44:16Z ERR  Runner] System.ArgumentException: The runner name './run.sh' is not valid. A valid runner name is 64 characters or less in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agentName')
+[2024-02-20 22:44:16Z ERR  Terminal] WRITE ERROR: The runner name './run.sh' is not valid. A valid runner name is 64 characters or less in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agentName')
+[2024-02-20 22:44:16Z INFO Listener] Runner execution has finished with return code 1

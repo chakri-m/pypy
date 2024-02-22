@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "my-runner",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus12.actions.githubusercontent.com/NJeMjNplxoUxStS3VLSKYj1iti1SqKg3vmM0iCzEJiYIkGRrge/",
+  "gitHubUrl": "https://github.com/chakri-m/pypy",
+  "workFolder": "_work"
+}

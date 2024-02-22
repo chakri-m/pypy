@@ -17,8 +17,8 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: '3.11'
-     # env:
-      #  AGENT_TOOLSDIRECTORY: /opt/hostedtoolache
+      env:
+        AGENT_TOOLSDIRECTORY: /opt/hostedtoolache
         
     - name: Install dependencies
       run: |

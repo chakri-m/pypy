@@ -1,0 +1,61 @@
+[2024-02-20 22:44:34Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-02-20 22:44:34Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:44:34Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:44:34Z INFO HostContext] Well known config file 'Credentials': '/Users/mohammedchakri/pypy/actions-runner/.credentials'
+[2024-02-20 22:44:34Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:44:34Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:44:34Z INFO HostContext] Well known config file 'Runner': '/Users/mohammedchakri/pypy/actions-runner/.runner'
+[2024-02-20 22:44:34Z INFO Listener] Runner is built for OSX (Arm64) - osx-arm64.
+[2024-02-20 22:44:34Z INFO Listener] RuntimeInformation: Darwin 22.1.0 Darwin Kernel Version 22.1.0: Sun Oct  9 20:15:52 PDT 2022; root:xnu-8792.41.9~2/RELEASE_ARM64_T8112.
+[2024-02-20 22:44:34Z INFO Listener] Version: 2.313.0
+[2024-02-20 22:44:34Z INFO Listener] Commit: d502c4623e5cd140e949f1e644ffe03762bd4151
+[2024-02-20 22:44:34Z INFO Listener] Culture: en-BE
+[2024-02-20 22:44:34Z INFO Listener] UI Culture: en-BE
+[2024-02-20 22:44:34Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:44:34Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:44:34Z INFO Listener] Validating directory permissions for: '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:44:34Z INFO CommandLineParser] Parse
+[2024-02-20 22:44:34Z INFO CommandLineParser] Parsing 1 args
+[2024-02-20 22:44:34Z INFO CommandLineParser] parsing argument
+[2024-02-20 22:44:34Z INFO CommandLineParser] HasArgs: False
+[2024-02-20 22:44:34Z INFO CommandLineParser] Adding Command: run
+[2024-02-20 22:44:34Z INFO Listener] Arguments parsed
+[2024-02-20 22:44:35Z INFO Runner] ExecuteCommand
+[2024-02-20 22:44:35Z INFO ConfigurationStore] currentAssemblyLocation: /Users/mohammedchakri/pypy/actions-runner/bin/Runner.Listener.dll
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:44:35Z INFO ConfigurationStore] binPath: /Users/mohammedchakri/pypy/actions-runner/bin
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:44:35Z INFO ConfigurationStore] RootFolder: /Users/mohammedchakri/pypy/actions-runner
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:44:35Z INFO HostContext] Well known config file 'Runner': '/Users/mohammedchakri/pypy/actions-runner/.runner'
+[2024-02-20 22:44:35Z INFO ConfigurationStore] ConfigFilePath: /Users/mohammedchakri/pypy/actions-runner/.runner
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:44:35Z INFO HostContext] Well known config file 'Credentials': '/Users/mohammedchakri/pypy/actions-runner/.credentials'
+[2024-02-20 22:44:35Z INFO ConfigurationStore] CredFilePath: /Users/mohammedchakri/pypy/actions-runner/.credentials
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:44:35Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/mohammedchakri/pypy/actions-runner/.credentials_migrated'
+[2024-02-20 22:44:35Z INFO ConfigurationStore] MigratedCredFilePath: /Users/mohammedchakri/pypy/actions-runner/.credentials_migrated
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-20 22:44:35Z INFO HostContext] Well known directory 'Root': '/Users/mohammedchakri/pypy/actions-runner'
+[2024-02-20 22:44:35Z INFO HostContext] Well known config file 'Service': '/Users/mohammedchakri/pypy/actions-runner/.service'
+[2024-02-20 22:44:35Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/mohammedchakri/pypy/actions-runner/.service
+[2024-02-20 22:44:35Z INFO CommandSettings] Flag 'help': 'False'
+[2024-02-20 22:44:35Z INFO CommandSettings] Flag 'version': 'False'
+[2024-02-20 22:44:35Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-02-20 22:44:35Z INFO CommandSettings] Flag 'check': 'False'
+[2024-02-20 22:44:35Z INFO CommandSettings] Command 'configure': 'False'
+[2024-02-20 22:44:35Z INFO CommandSettings] Command 'remove': 'False'
+[2024-02-20 22:44:35Z INFO CommandSettings] Command 'warmup': 'False'
+[2024-02-20 22:44:35Z INFO ConfigurationManager] LoadSettings
+[2024-02-20 22:44:35Z INFO ConfigurationStore] IsConfigured()
+[2024-02-20 22:44:35Z INFO ConfigurationStore] IsConfigured: False
+[2024-02-20 22:44:35Z INFO ConfigurationManager] Is configured: False
+[2024-02-20 22:44:35Z ERR  Terminal] WRITE ERROR: An error occurred: Not configured. Run config.(sh/cmd) to configure the runner.
+[2024-02-20 22:44:35Z ERR  Listener] GitHub.Runner.Common.NonRetryableException: Not configured. Run config.(sh/cmd) to configure the runner.
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.LoadSettings()
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+   at GitHub.Runner.Listener.Program.MainAsync(IHostContext context, String[] args)
