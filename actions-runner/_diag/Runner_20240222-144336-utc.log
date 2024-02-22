@@ -115,3 +115,58 @@
 [2024-02-22 14:43:37Z INFO Terminal] WRITE LINE: Current runner version: '2.313.0'
 [2024-02-22 14:43:37Z INFO Terminal] WRITE LINE: 2024-02-22 14:43:37Z: Listening for Jobs
 [2024-02-22 14:43:37Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-02-22 14:48:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/mohammedchakri/pypy/actions-runner/.credentials_rsaparams
+[2024-02-22 14:48:35Z INFO MessageListener] Message '4' received from session '0db92909-839c-4939-9262-274ae7df0bfc'.
+[2024-02-22 14:48:35Z INFO Runner] Received job message of length 23394 from service, with hash 'd1a961a1e13dd847a5bfac24826627fae93183afad10c087d7bf3cb1fbd61c21'
+[2024-02-22 14:48:35Z INFO JobDispatcher] Job request 20 for plan 00f8f346-76ab-4ffb-8acb-30fcc46029cd job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-02-22 14:48:35Z INFO JobDispatcher] Pull OrchestrationId 00f8f346-76ab-4ffb-8acb-30fcc46029cd.build.__default from JWT claims
+[2024-02-22 14:48:35Z INFO Terminal] WRITE LINE: 2024-02-22 14:48:35Z: Running job: build
+[2024-02-22 14:48:35Z INFO JobDispatcher] Start renew job request 20 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-02-22 14:48:35Z INFO JobDispatcher] Successfully renew job request 20, job is valid till 22/02/2024 14:58:35
+[2024-02-22 14:48:35Z INFO HostContext] Well known directory 'Bin': '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   File name: '/Users/mohammedchakri/pypy/actions-runner/bin/Runner.Worker'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 106 109'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/mohammedchakri/pypy/actions-runner/bin'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-02-22 14:48:35Z INFO ProcessInvokerWrapper] Process started with process id 99010, waiting for process exit.
+[2024-02-22 14:48:35Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-02-22 14:48:35Z INFO ProcessChannel] Sending message of length 23394, with hash 'd1a961a1e13dd847a5bfac24826627fae93183afad10c087d7bf3cb1fbd61c21'
+[2024-02-22 14:48:35Z INFO JobNotification] Entering JobStarted Notification
+[2024-02-22 14:48:35Z INFO JobNotification] Entering StartMonitor
+[2024-02-22 14:49:35Z INFO JobDispatcher] Successfully renew job request 20, job is valid till 22/02/2024 14:59:35
+[2024-02-22 14:50:35Z INFO JobDispatcher] Successfully renew job request 20, job is valid till 22/02/2024 15:00:35
+[2024-02-22 14:50:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/mohammedchakri/pypy/actions-runner/.credentials_rsaparams
+[2024-02-22 14:50:57Z INFO MessageListener] Message '5' received from session '0db92909-839c-4939-9262-274ae7df0bfc'.
+[2024-02-22 14:50:57Z INFO JobDispatcher] Job cancellation request ca395085-040a-526b-2ce8-bdc85f692774 received, cancellation timeout 5 minutes.
+[2024-02-22 14:50:57Z INFO JobDispatcher] Send job cancellation message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-02-22 14:50:57Z INFO ProcessChannel] Sending message of length 0, with hash 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+[2024-02-22 14:51:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-22 14:51:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-22 14:51:15Z INFO ProcessInvokerWrapper] Finished process 99010 with exit code 103, and elapsed time 00:02:40.3043467.
+[2024-02-22 14:51:15Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Canceled
+[2024-02-22 14:51:15Z INFO Terminal] WRITE LINE: 2024-02-22 14:51:15Z: Job build completed with result: Canceled
+[2024-02-22 14:51:15Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-02-22 14:51:15Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 20.
+[2024-02-22 14:51:15Z INFO JobNotification] Entering JobCompleted Notification
+[2024-02-22 14:51:15Z INFO JobNotification] Entering EndMonitor
+[2024-02-22 15:21:04Z INFO MessageListener] No message retrieved from session '0db92909-839c-4939-9262-274ae7df0bfc' within last 30 minutes.
+[2024-02-22 15:39:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/mohammedchakri/pypy/actions-runner/.credentials_rsaparams
+[2024-02-22 15:39:27Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-02-22 15:44:10Z INFO Terminal] WRITE LINE: Exiting...
+[2024-02-22 15:44:10Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-02-22 15:44:10Z INFO ConfigurationStore] IsServiceConfigured: False
+[2024-02-22 15:44:10Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2024-02-22 15:44:10Z WARN GitHubActionsService] GET request to https://pipelinesghubeus12.actions.githubusercontent.com/NJeMjNplxoUxStS3VLSKYj1iti1SqKg3vmM0iCzEJiYIkGRrge/_apis/distributedtask/pools/1/messages?sessionId=0db92909-839c-4939-9262-274ae7df0bfc&lastMessageId=5&status=Online&runnerVersion=2.313.0&os=macOS&architecture=ARM64&disableUpdate=false has been cancelled.
+[2024-02-22 15:44:10Z INFO MessageListener] Get next message has been cancelled.
+[2024-02-22 15:44:10Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2024-02-22 15:44:10Z INFO JobDispatcher] Ensure WorkerDispatcher for job ca395085-040a-526b-2ce8-bdc85f692774 run to finish, cancel any running job.
+[2024-02-22 15:44:10Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-02-22 15:44:10Z INFO Runner] Deleting Runner Session...
+[2024-02-22 15:44:10Z INFO Listener] Runner execution been cancelled.
